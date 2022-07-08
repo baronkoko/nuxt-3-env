@@ -1,6 +1,9 @@
 declare module "@nuxt/schema" {
   interface RuntimeConfig {
-    FOO: string;
+    foo: string;
+    public: {
+      foo: string;
+    };
   }
 }
 
